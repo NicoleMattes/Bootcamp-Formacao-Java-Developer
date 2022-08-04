@@ -21,7 +21,8 @@ public class Main {
         double saldo = inputDadosDaConta.nextDouble();
 
         System.out.println("===================================");
-        System.out.println("Titular da Conta: " + titularConta);
+
+        System.out.println("Olá " + titularConta + " obrigado por criar uma conta em nosso banco, sua conta é: ");
         System.out.println("Número da Conta " + numeroConta);
         System.out.println("Agência: " + agencia);
         System.out.println("Saldo: " + saldo);
